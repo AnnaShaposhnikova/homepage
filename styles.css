@@ -192,7 +192,6 @@ body {
 
 
 /*Experience and additonal info styles*/
-
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -201,6 +200,9 @@ body {
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
+    margin-bottom: 20px;
+}
+.experiences__company{
     margin-bottom: 20px;
 }
 
@@ -270,7 +272,7 @@ body {
 }
 
 .additional-info__education-university-name {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
 }
 
 .additional-info__languages {
@@ -285,4 +287,7 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+.additional-info__education-university{
+    margin-bottom: 20px;
 }
