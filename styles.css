@@ -136,7 +136,7 @@ body {
   /*
   Intro and skills styles
   */
-  .intro {
+ .intro {
     display: flex;
     justify-content: start;
 }
@@ -169,9 +169,27 @@ body {
 }
 
 .skills__text {
+    
     color: var(--secondary-text-color);
     text-align: justify;
 }
+.skills-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;     
+}
+
+.skills__header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.skills__items {
+    color: var(--secondary-text-color);
+    padding-left: 20px;
+}
+
 
 /*Experience and additonal info styles*/
 
